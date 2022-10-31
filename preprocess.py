@@ -28,3 +28,6 @@ def preprocess(dataset) -> pd.DataFrame:
     features.insert(loc=10, column='price', value=dataset['price'])
     features.columns = col_names
     return features
+
+
+print('test')
